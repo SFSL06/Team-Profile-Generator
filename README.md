@@ -1,6 +1,6 @@
 # Team-Profile-Generator
 This application generates a webpage that displays a team's basic info to have quick access to emails and github
-![TeamProfileGeneratorScreenshot](/TPGScreenshot1.jpg)
+![TeamProfileGeneratorScreenshot](/TPGScreenshot.jpg)
 
 ## Table of Contents:
   1. [Description](#description) 
