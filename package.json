@@ -1,0 +1,21 @@
+{
+  "name": "team-profile-generator",
+  "version": "1.0.0",
+  "description": "This application generates a webpage that displays a team's basic info to have quick access to emails and github",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "inquirer": "^8.2.6"
+  }
+}

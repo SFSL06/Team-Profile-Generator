@@ -10,9 +10,11 @@ const OUTPUT_DIR = path.resolve(__dirname, "output");
 const outputPath = path.join(OUTPUT_DIR, "team.html");
 
 const render = require("./src/page-template.js");
-const Engineer = require("./lib/Engineer");
+
 //Declare empty array for team
 teamArr = [];
+
+buildTeam();
 // TODO: Write Code to gather information about the development team members, and render the HTML file.
 function buildTeam(){
 
@@ -69,7 +71,7 @@ inquirer
       inputIntern();
   }
   else 
-      buildHTML();
+      createHTML();
   }
 }
 
@@ -134,7 +136,9 @@ inquirer
      });
     }
 
-  function buildHTML()
-  {}
+  function createHTML()
+  {
+    fs.writeFileSync(outputPath, generateTeam(teamArray), "UTF-8")
+  }
 
 }
